@@ -1,6 +1,5 @@
 package top.starrysea.dao;
 
-import top.starrysea.common.DaoResult;
 import top.starrysea.object.dto.User;
 
 public interface IUserDao {
@@ -14,4 +13,6 @@ public interface IUserDao {
 	User getUserInfoDao(String userId);
 	
 	void updateUserDao(User user);
+
+	void updateUserPasswordDao(User user);
 }
